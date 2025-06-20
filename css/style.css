@@ -41,3 +41,99 @@
     transform: translateX(0);
 }
 
+.Carousel-body{
+    width: 50%;
+    height: 16vw; 
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.Carousel-text{
+    font-size: 70px;
+}
+
+.Carousel-image{
+    width: 100%; 
+    max-height: 750px; 
+    object-fit: cover;
+}
+.butn{
+    font-size: 30px;
+    padding: 1vw 4vw;
+    background-color: #3bb814;
+    color: white;
+    border-radius: 45px;
+}
+.btn-servicios{
+    background-color: #f65004;
+}
+
+.Carousel-btn{
+    padding: 15px;
+    background-color: #3bb814;
+    color: white;
+    border-radius: 45px;
+}
+
+.about-image{
+    min-width: 25%;
+    max-width: 50%;
+    max-height: 530px;
+    border-radius: 100%;
+    height: fit-content;
+}
+
+h1{
+    font-size: 70px;
+}
+
+.btn-informacion{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #5cb73c;
+    color: #5cb73c;
+    border-radius: 30px; 
+}
+
+.card{
+    max-width: fit-content;
+    padding: 0px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-btn{
+    border: 2px solid #f2f2f2;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card-title-text{
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .Carousel-body{
+        width: 80%;
+        margin: 0px 10%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+    
+    .Carousel-text{
+        font-size: 35px;
+    }
+
+    .butn{
+        font-size: 20px;
+    }
+    
+}
